@@ -11,7 +11,7 @@ def map(array)
 end
 
 # map([1,2,3,4]){|num| num + 1}  [2,3,4,5]
-# map([1,2,3,4]){|num| num + 2}  [3,4,5,6]
+# map([1,2,3,4]){|num| num  2}  [3,4,5,6]
  
 # def reduce_to_total(source_array, starting_point = 0)
 #   new = 0
@@ -24,6 +24,7 @@ end
 # end
 
 def reduce(array, starting_point = 0)
+  i = starting_point
   
 end
     
