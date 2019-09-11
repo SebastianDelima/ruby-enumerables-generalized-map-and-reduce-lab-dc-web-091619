@@ -13,6 +13,7 @@ end
 # map([1,2,3,4]){|num| num + 1}  [2,3,4,5]
 # map([1,2,3,4]){|num| num + 2}  [3,4,5,6]
  
+ 
 def reduce(array, starting_point = 0)
   array1 = starting_point
   i = 0 
