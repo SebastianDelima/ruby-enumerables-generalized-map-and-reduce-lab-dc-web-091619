@@ -23,9 +23,13 @@ end
 #   return 
 # end
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
+  if starting_point
   total = starting_point
   i = 0 
+else 
+  total = array[0]
+  i = 1
   while i < array.length do
     total = yield(total, array[i])
     i += 1 
