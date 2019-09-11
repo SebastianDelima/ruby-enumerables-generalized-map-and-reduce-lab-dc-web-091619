@@ -24,11 +24,7 @@ end
 # end
 
 def reduce(array, starting_point = 0)
-  array1 = starting_point
-  i = 0 
-  while i < array.length do
-    yield
-  end
+  
 end
     
     
