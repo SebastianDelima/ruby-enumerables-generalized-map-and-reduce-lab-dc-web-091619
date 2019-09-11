@@ -24,7 +24,16 @@ end
 # end
 
 def reduce(array, starting_point = 0)
-  i = starting_point
+  total = starting_point
+  i = 0 
+  while i < array.length do
+    
+    
+    
+  end
+    
+    
+    
   
 end
     
